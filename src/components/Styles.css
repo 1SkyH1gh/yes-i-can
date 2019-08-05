@@ -1,0 +1,214 @@
+
+button {
+
+
+}
+
+.container {
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 200px;
+    display: flex;
+    border: 1px solid grey;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.preheader {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.Statictic {
+
+}
+
+.founded {
+    font-size: 24px;
+    color: #696969;
+}
+
+.amount {
+    font-size: 26px;
+    color: darkseagreen;
+}
+
+.linkDeleteAll {
+    border-radius: 5px;
+    border: 1px solid grey;
+    background: #9555af;
+    font-size: 26px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.linkDeleteAll:hover{
+    background: darksalmon;
+    border: 1px solid transparent;
+
+}
+
+
+.selectedWords {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 3%;
+
+}
+
+.selected {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 0;
+    margin-left: 1%;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #9555af;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px
+}
+
+.selected:hover{
+    background: deeppink;
+}
+.selected:hover  img{
+    box-sizing: border-box;
+    display:flex
+
+}
+
+.formStyles {
+    margin-bottom: 2%;
+
+    width: 100%
+
+}
+
+.search {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    width: 90%
+}
+
+.All {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    align-items: flex-start;
+}
+
+.examplair {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 0;
+    margin-left: 1%;
+    border: 1px solid grey;
+    border-radius: 4px;
+    color: darkgrey;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+
+}
+
+.examplair:hover {
+    background: cornflowerblue;
+    color: white;
+
+    border: 1px solid transparent;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 70px
+
+
+}
+
+.cancel {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 2%;
+    border: 1px solid lightgrey;
+}
+
+.cancel:hover {
+    background: darksalmon;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.accept {
+    padding: 10px 10px 10px 10px;
+    margin-right: 10%;
+    color: white;
+    background: darkcyan;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+.accept:hover {
+    background: indianred;
+    color: white;
+}
+
+.cancel:hover img{
+    box-sizing: border-box;
+    display:flex;
+
+}
+
+.krestik{
+    margin-right: 5px;
+    width:22px;
+    height:18px;
+    display:none
+
+}
+.krestikSel{
+    display:none;
+    margin-left:5px;
+    margin-top:5px;
+    width:17px;
+    height:16px;
+}

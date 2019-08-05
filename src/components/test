@@ -1,0 +1,18 @@
+ /*
+            <div className="Selected">
+                {selected.map((Selectword: { id: number; keyword: string; })=>
+                <Selected Selectword={Selectword}
+                del={()=>delElem(SelectedElem.splice(Selectword.id,1))}/>
+                )}
+            </div>
+            */
+
+ <div className="AllWords">
+            {words.map((word:{id:number;keyword:string})=>
+
+                <AllKeywords word={word}
+                addToSelected={()=>PushElem(elem.splice(elem.length-1,0,word))
+                }/>
+            )
+            }
+        </div>
