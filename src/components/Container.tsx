@@ -5,37 +5,32 @@ import _selected from '../RenoJson.json'
 import {Selected} from "./Selected";
 import "./Styles.css"
 import krestik from '../krestik.png'
+
 export interface Word {
-    id: number,
+
+
+        id: number
+
     keyword: string
+
 }
 
 const wordsData: Word[] = _selected;
+
 
 
 export interface ContainerProps {
 
 }
 
+
 export const Container: FunctionComponent<ContainerProps> = () => {
 
-    /*Хук для моих выбранных слов
-    * По клику на слово он его удаляет
-    * */
+
     const [selected, setSelected] = useState<ReadonlyArray<Word>>(wordsData);
-    /*Хук для всех слов из БД.По клику на экземпляр
-    * ДОЛЖЕН добавлять его в селектер вордс
-    * */
+
     const [words] = useState(wordsData);
-    /*
-    * Хук для удаления всех селектедов
-    * */
-    /*
-    /* Функция,выполняющая удаление всех селектед слов*/
-    // const deleteAll = () => {
-    //     deleter(allElem.splice(0, allElem.length))
-    // }
-    /*form*/
+
     const handleSubmit = () => {
         for (let i = 0; i < words.length; i++) {
 
@@ -43,9 +38,10 @@ export const Container: FunctionComponent<ContainerProps> = () => {
     }
 
 
+
     return (
 
-     <div className='container'>
+     <div className={"containerNone"}>
              <div className="preheader">
              <div className="Statictic">
                 <h2 className="founded">founded :<span className="amount">27/47</span> words</h2>
@@ -101,7 +97,7 @@ export const Container: FunctionComponent<ContainerProps> = () => {
 
 
                 <h2 className="cancel"><span className="krestikCont"><img src={krestik} className="krestik"/></span>Cancel</h2>
-                <h2 className="accept">Accept</h2>
+                <h2 className="accept" >Accept</h2>
             </div>
         </div>
     )

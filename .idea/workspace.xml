@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7424cffc-34e2-4b2c-87b7-2106451a886f" name="Default Changelist" comment="" />
+    <list default="true" id="7424cffc-34e2-4b2c-87b7-2106451a886f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -64,7 +72,7 @@
       <scripts>
         <script value="start" />
       </scripts>
-      <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/node-v10.15.3-linux-x64/bin/node" />
+      <node-interpreter value="$PROJECT_DIR$/../.WebStorm2019.2/config/node/node-v10.15.3-linux-x64/bin/node" />
       <package-manager value="npm" />
       <envs />
       <method v="2" />
@@ -84,7 +92,8 @@
       <workItem from="1564989604922" duration="252000" />
       <workItem from="1564990115298" duration="211000" />
       <workItem from="1564990420938" duration="9172000" />
-      <workItem from="1565001572640" duration="14177000" />
+      <workItem from="1565001572640" duration="15167000" />
+      <workItem from="1565074192194" duration="23302000" />
     </task>
     <servers />
   </component>

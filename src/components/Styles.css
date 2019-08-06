@@ -116,7 +116,9 @@ button {
     margin: 0 auto;
     flex-wrap: wrap;
     margin-top: 3%;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .examplair {
