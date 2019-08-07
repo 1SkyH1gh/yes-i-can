@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/src/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Container.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Actions.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +44,10 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -94,6 +95,7 @@
       <workItem from="1564990420938" duration="9172000" />
       <workItem from="1565001572640" duration="15167000" />
       <workItem from="1565074192194" duration="23302000" />
+      <workItem from="1565161705685" duration="24802000" />
     </task>
     <servers />
   </component>

@@ -9,25 +9,27 @@ import krestik from '../krestik.png'
 export interface Word {
 
 
-        id: number
+    id: number
 
     keyword: string
 
 }
 
-const wordsData: Word[] = _selected;
+export const wordsData: Word[] = _selected;
 
 
 
 export interface ContainerProps {
-
+amountKeywords:any,
+    setSelectedAmount:any
 }
 
 
-export const Container: FunctionComponent<ContainerProps> = () => {
+export const Container: FunctionComponent<ContainerProps> = (props) => {
+    const {amountKeywords}=props
+    const {setSelectedAmount}=props
 
 
-    const [selected, setSelected] = useState<ReadonlyArray<Word>>(wordsData);
 
     const [words] = useState(wordsData);
 
@@ -41,12 +43,12 @@ export const Container: FunctionComponent<ContainerProps> = () => {
 
     return (
 
-     <div className={"containerNone"}>
+     <div className="container">
              <div className="preheader">
              <div className="Statictic">
-                <h2 className="founded">founded :<span className="amount">27/47</span> words</h2>
+                <h2 className="founded">founded :<span className="amount">{amountKeywords.length}/{wordsData.length}</span> words</h2>
             </div>
-                 <h2  className="linkDeleteAll" onClick={() => setSelected([])}>
+                 <h2  className="linkDeleteAll" onClick={() => setSelectedAmount([])}>
                      Delete All
                  </h2>
 
@@ -54,17 +56,19 @@ export const Container: FunctionComponent<ContainerProps> = () => {
 
             {/*<MapSelected del={()=>delElem(SelectedElem.splice(,1))}/>*/}
            <div className="selectedWords">{
-                selected.map(word =>
+                amountKeywords.map((word: Word) =>
                     <Selected
                         key={word.id}
                         Selectword={word}
+
                         del={() => {
-                            const index = selected.findIndex(x => x.id === word.id);
+                            const index = amountKeywords.findIndex((x: { id: number; }) => x.id === word.id);
                             if (index >= 0) {
-                                setSelected(selected => {
-                                    const buffer = [...selected];
+                                setSelectedAmount((amountKeywords: any) => {
+                                    const buffer = [...amountKeywords];
                                     buffer.splice(index, 1);
                                     return buffer;
+
                                 })
                             }
                         }}/>
@@ -89,7 +93,7 @@ export const Container: FunctionComponent<ContainerProps> = () => {
                     <AllKeywords
                         key={word.id}
                         word={word}
-                        addToSelected={() => setSelected(selected => ([...selected, word]))}/>
+                        addToSelected={() => setSelectedAmount((amountSelected: any) => ([...amountSelected, word]))}/>
                 )
             }
           </div>
